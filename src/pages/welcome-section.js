@@ -5,7 +5,7 @@ export default class WelcomeSection extends Component {
     return (
     
       <div className='welcome-section'>
-            <h1>Welcome to Life Gives You Pencils!</h1>
+            <center><h1>Welcome to Life Gives You Pencils!</h1><br />
 
             Hello! My name is Rebekah Lamm and I'm delighted to be able to share my <br />
             artwork with you. I hope it enriches your life!<br /><br />        
@@ -18,7 +18,7 @@ export default class WelcomeSection extends Component {
 
             Want to know what's new and exciting with me? Click the "Events & News" button above!<br /><br />
       
-            Thank you for stopping in, may you have a blessed day!
+            Thank you for stopping in, may you have a blessed day!</center>
       </div>
     );
   }

@@ -1,7 +1,11 @@
 .welcome-section-wrapper {
   display: grid;
-
-  .welcome-section {
-    display: flex;
-  }
+  grid-template-columns: 1fr;
 }
+
+// .welcome-section {
+//   display: flex;
+//   flex-direction: row;
+//   width: 100%;
+// }
+
