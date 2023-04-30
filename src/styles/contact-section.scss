@@ -1,4 +1,13 @@
 .contact-section-wrapper {
   display: grid;
   justify-content: center;
+  height: 150px;
+  background-image: url('../static/assets/images/contact_section_background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .btn-contact-wrapper {
+    display: flex;
+    align-items: center;
+  }
 }
