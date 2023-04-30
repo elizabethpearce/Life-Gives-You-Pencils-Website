@@ -4,7 +4,7 @@ export default class NavBar extends Component {
   render() {
     return (
       <div className='nav-bar-button-wrapper'>
-        <button className='btn'>Home</button>
+        <button className='btn'>Home</button> 
         <button className='btn'>Shop</button>
         <button className='btn'>Services</button>
         <button className='btn'>Gallery</button>

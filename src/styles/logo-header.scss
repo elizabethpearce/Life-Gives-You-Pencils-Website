@@ -5,7 +5,9 @@
 
   .logo-header {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-  }
+    flex-direction: column;
+    height: 175px;
+    width: 175px;
+   }
 }

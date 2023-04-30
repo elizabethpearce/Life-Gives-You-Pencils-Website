@@ -5,7 +5,7 @@ export default class LogoHeader extends Component {
   render() {
     return (
       <div className='logo-header'>
-        <img src={headerLogo}  alt="Life Gives You Pencils Logo Header" height="200px" width="200px"></img>
+        <img src={headerLogo}  alt="Life Gives You Pencils Logo Header" ></img>
       </div>
 
       
