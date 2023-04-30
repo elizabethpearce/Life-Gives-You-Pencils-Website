@@ -1,0 +1,22 @@
+.art-section-wrapper{
+  display: grid;
+  justify-content: center;
+
+
+  .art-section {
+    display: flex;
+    flex-direction: row;
+    width: 1500px;
+    justify-content: space-evenly;
+
+    .art-spot-one {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    .art-spot-2 {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  }
+}
