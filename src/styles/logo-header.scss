@@ -2,12 +2,17 @@
   display: grid;
   justify-content: center;
   height: 200px;
+  align-items: center;
 
   .logo-header {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 175px;
-    width: 175px;
+    height: 195px;
+    width: 195px;
+
+    .logo-header-img {
+      margin-bottom: 10px;
+    }
    }
 }
