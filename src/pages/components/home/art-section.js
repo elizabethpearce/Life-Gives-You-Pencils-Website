@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import imageOne from '../static/assets/images/Artwork_Homepage_Spot_1.jpg'
-import imageTwo from '../static/assets/images/Artwork_Homepage_Spot_2.jpg'
+import imageOne from '../../../static/assets/images/Artwork_Homepage_Spot_1.jpg'
+import imageTwo from '../../../static/assets/images/Artwork_Homepage_Spot_2.jpg'
 
 export default class ArtSection extends Component {
   render() {

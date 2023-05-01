@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import headerLogo from '../static/assets/images/Life_Gives_You_Pencils_Logo.png'
+import headerLogo from '../../../static/assets/images/Life Gives You Pencils Website Header.png'
 
 export default class LogoHeader extends Component {
   render() {

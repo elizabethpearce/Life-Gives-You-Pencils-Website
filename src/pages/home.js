@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import NavBar from './nav-bar';
-import LogoHeader from './logo-header';
-import WelcomeSection from './welcome-section';
-import ArtSection from './art-section';
-import ContactSection from './contact-section';
-import NavBarLogo from './nav-bar-logo';
+import NavBar from './components/home/nav-bar';
+import LogoHeader from './components//home/logo-header';
+import WelcomeSection from './components/home/welcome-section';
+import ArtSection from './components/home/art-section';
+import ContactSection from './components/home/contact-section';
+import NavBarLogo from './components/home/nav-bar-logo';
 
 export default class Home extends Component {
   render() {

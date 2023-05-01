@@ -1,6 +1,6 @@
 .nav-bar-header-wrapper {
   display: grid;
-  grid-template-columns: 6% 94%;
+  grid-template-columns: 10% 90%;
   height: 105px;
   justify-content: center;
   background-image: url('../static/assets/images/header_background.jpg');
@@ -10,7 +10,7 @@
   .nav-bar-wrapper {
     display: flex;
     justify-content: center;
-    width: 93%;
+    width: 88%;
     height: 100%;
 
     .nav-bar-button-wrapper {
