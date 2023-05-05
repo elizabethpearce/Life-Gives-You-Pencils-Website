@@ -12,8 +12,7 @@ export default class Home extends Component {
       <div className='home-page-wrapper'>
         <div className='nav-bar-header-wrapper'>
           <div className='logo-wrapper'>
-          <a href='localhost:3000' class="logo-home-page-link"><NavBarLogo /></a>
-
+            <a href='localhost:3000' class="logo-home-page-link"><NavBarLogo /></a>
           </div>
           <div className='nav-bar-wrapper'>           
             <NavBar />          

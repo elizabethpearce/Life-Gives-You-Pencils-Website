@@ -4,15 +4,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
+  height: 500px;
+  align-content: center;
 
   .welcome-section {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 30px;
-  // font-weight: bold;
-  font-size: 25px;
+  font-size: 23px;
 
   h2 {
     font-weight: bold;

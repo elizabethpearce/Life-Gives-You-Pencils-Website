@@ -5,7 +5,8 @@ export default class ContactSection extends Component {
     return (
       <div className='btn-contact-wrapper'>
         <button className='btn-contact'>
-          <div>Contact</div>
+          <div><u><strong>Contact</strong></u></div>
+          <br />
           <div>Email: info@lifegivesyoupencils.com</div>
           <div>Mailing:</div>
           <div>P.O. Box 536</div>
