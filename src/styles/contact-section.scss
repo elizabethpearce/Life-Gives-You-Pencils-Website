@@ -1,13 +1,26 @@
 .contact-section-wrapper {
   display: grid;
   justify-content: center;
+  align-content: center;
   height: 150px;
   background-image: url('../static/assets/images/contact_section_background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 
-  .btn-contact-wrapper {
+  .contact-wrapper {
     display: flex;
+    flex: column;
+    justify-content: center;
     align-items: center;
+    height: 115px;
+    width: 170px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    background-color: $dark-salmon;
+    font-family: "blanket", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: black;
   }
 }

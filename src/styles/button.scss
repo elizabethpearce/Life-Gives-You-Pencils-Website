@@ -2,32 +2,41 @@
   @include base-btn();
 }
 
-.btn-contact {
-  cursor: pointer;
-  height: 115px;
-  width: 150px;
-  border: 1.5px solid black;
-  border-radius: 5px;
-  transition: all 0.5s ease-in-out;
-  background-color: $dark-salmon;
-  font-family: "blanket", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 15px;
-  // font-family: "moonblossom", sans-serif;
-  // font-weight: 400;
-  // font-style: normal;
+// .contact-wrapper {
+//   display: flex;
+//   flex-direction: column;
+//   // justify-content: center;
+//   // align-items: center;
+//   cursor: pointer;
+//   height: 115px;
+//   width: 150px;
+//   border: 1.5px solid black;
+//   border-radius: 5px;
+//   transition: all 0.5s ease-in-out;
+//   background-color: $dark-salmon;
+//   font-family: "blanket", sans-serif;
+//   font-weight: 400;
+//   font-style: normal;
+//   font-size: 15px;
+//   color: black;
 
-  &:active, &:focus {
-    outline: none;
-  }
+//   &:active, &:focus {
+//     outline: none;
+//   }
 
-  &:hover {
-    background-color: $light-turquoise;
-  }
-}
+//   a:visited {
+//     color: inherit;
+//   }
+
+//   &:hover {
+//     background-color: $light-turquoise;
+//   }
+// }
 
 .btn-special-nav-bar {
+  display: grid;
+  align-content: center;
+  justify-content: center;
   cursor: pointer;
   height: 45px;
   width: 110px;
@@ -39,12 +48,15 @@
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
-  // font-family: "moonblossom", sans-serif;
-  // font-weight: 400;
-  // font-style: normal;
+  text-decoration: none;
+  color: black;  
 
   &:active, &:focus {
     outline: none;
+  }
+
+  a:visited {
+    color: inherit;
   }
 
   &:hover {
