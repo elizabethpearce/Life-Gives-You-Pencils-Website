@@ -40,7 +40,7 @@
 //   }
 // }
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import NavBar from './components/home/nav-bar';
 import LogoHeader from './components/home/logo-header';
 import WelcomeSection from './components/home/welcome-section';
@@ -49,6 +49,24 @@ import ContactSection from './components/home/contact-section';
 import NavBarLogo from './components/home/nav-bar-logo';
 
 const Home = () => {
+  useEffect(() => {
+    const navBar = document.querySelector('.nav-bar-header-wrapper');
+
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        navBar.classList.add('fixed-nav');
+      } else {
+        navBar.classList.remove('fixed-nav');
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <div className='home-page-wrapper'>
       <div className='nav-bar-header-wrapper'>

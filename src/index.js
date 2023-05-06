@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './index.css';
 import './main.scss';
+import './fixed-nav.css';
 import App from './App';
 import Home from './pages/home';
 import About from './pages/about';
