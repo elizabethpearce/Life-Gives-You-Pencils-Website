@@ -71,7 +71,7 @@ const Home = () => {
     <div className='home-page-wrapper'>
       <div className='nav-bar-header-wrapper'>
         <div className='logo-wrapper'>
-          <a href='localhost:3000' className="logo-home-page-link"><NavBarLogo /></a>
+          <NavBarLogo />
         </div>
         <div className='nav-bar-wrapper'>
           <NavBar />

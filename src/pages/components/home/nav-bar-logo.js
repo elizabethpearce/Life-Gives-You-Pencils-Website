@@ -10,10 +10,12 @@
 // }
 
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const NavBarLogo = () => {
   return (
     <div className='nav-bar-logo-wrapper'>
+      <NavLink exact to='/' className="logo-home-page-link" activeClassName="active"></NavLink>
     </div>
   )
 }
