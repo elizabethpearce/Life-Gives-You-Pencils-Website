@@ -48,13 +48,13 @@ import { NavLink } from 'react-router-dom';
 const NavBar = () => {
   return (
     <div className="nav-bar-button-wrapper">
-      <NavLink exact to="/" className="btn-special-nav-bar" activeClassName="active">Home</NavLink>
-      <NavLink to="/shop" className="btn" activeClassName="active">Shop</NavLink>
-      <NavLink to="/services" className="btn" activeClassName="active">Services</NavLink>
-      <NavLink to="/gallery" className="btn" activeClassName="active">Gallery</NavLink>
-      <NavLink to="/events-news" className="btn" activeClassName="active">Events & News</NavLink>
-      <NavLink to="/about" className="btn" activeClassName="active">About</NavLink>
-      <NavLink to="/contact" className="btn" activeClassName="active">Contact</NavLink>
+      <NavLink exact to="/" className="btn-special-nav-bar">Home</NavLink>
+      <NavLink to="/shop" className="btn">Shop</NavLink>
+      <NavLink to="/services" className="btn">Services</NavLink>
+      <NavLink to="/gallery" className="btn">Gallery</NavLink>
+      <NavLink to="/events-news" className="btn">Events & News</NavLink>
+      <NavLink to="/about" className="btn">About</NavLink>
+      <NavLink to="/contact" className="btn">Contact</NavLink>
       <NavLink to="/cart"className="btn-special-nav-bar">Cart</NavLink>
     </div>
   );

@@ -1,3 +1,71 @@
 .about-page-wrapper {
   display: grid;
+
+
+  .about-section-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 100px 0px 100px 0px;
+
+    .about-section-profile-picture {
+      display: flex;
+      background-image: url('../static/assets/images/BekahAboutMe.jpg');
+      background-repeat: no-repeat;
+      background-size: 500px;
+      height: 500px;
+      width: 500px;
+    }
+
+    .about-section-profile-text {
+      display: flex;
+      font-size: 20px;
+      line-height: 1.75;
+      align-items: center;
+    }
+  }
+
+  .about-section-art-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    background: rgba(253, 235, 227, 0.5);
+    border-top: 3px solid black;
+
+    
+    .about-section-artwork-one {
+      display: flex;
+      width: 33%;
+      justify-content: center;
+      background-image: url('../static/assets/images/MarilynMonroeArt.jpg');
+      height: 300px;
+      background-size: 300px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .about-section-artwork-two {
+      display: flex;
+      width: 33%;
+      justify-content: center;
+      background-image: url('../static/assets/images//PinkButterflyArt.jpg');
+      height: 300px;
+      background-size: 300px;
+      background-repeat: no-repeat;
+      background-position: center;
+     }
+
+    .about-section-artwork-three {
+      display: flex;
+      width: 33%;
+      justify-content: center;
+      background-image: url('../static/assets/images/RunningFlamesFootprintArt.jpg');
+      height: 300px;
+      background-size: 300px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
 }
