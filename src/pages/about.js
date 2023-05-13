@@ -24,7 +24,7 @@ import React, { useEffect } from 'react';
 import NavBarLogo from './components/home/nav-bar-logo';
 import NavBar from './components/home/nav-bar';
 import ContactSection from './components/home/contact-section';
-import profilePic from '../static/assets/images/BekahAboutMe.jpg'
+
 
 
 
@@ -60,7 +60,7 @@ const About = () => {
 
       <div className='about-section-wrapper'>
         <div className='about-section-profile-picture'>
-          {/* <img src={profilePic} alt="Artist Profile"></img> */}
+       
         </div>
         <div className='about-section-profile-text'>
           Hi! I'm Rebekah and I'm super passionate about my arwork and here is why!<br/>
