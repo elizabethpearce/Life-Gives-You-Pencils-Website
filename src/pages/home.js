@@ -49,23 +49,23 @@ import ContactSection from './components/home/contact-section';
 import NavBarLogo from './components/home/nav-bar-logo';
 
 const Home = () => {
-  useEffect(() => {
-    const navBar = document.querySelector('.nav-bar-header-wrapper');
+  // useEffect(() => {
+  //   const navBar = document.querySelector('.nav-bar-header-wrapper');
 
-    const handleScroll = () => {
-      if (window.scrollY > 0) {
-        navBar.classList.add('fixed-nav');
-      } else {
-        navBar.classList.remove('fixed-nav');
-      }
-    };
+  //   const handleScroll = () => {
+  //     if (window.scrollY > 0) {
+  //       navBar.classList.add('fixed-nav');
+  //     } else {
+  //       navBar.classList.remove('fixed-nav');
+  //     }
+  //   };
 
-    window.addEventListener('scroll', handleScroll);
+  //   window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
 
   return (
     <div className='home-page-wrapper'>

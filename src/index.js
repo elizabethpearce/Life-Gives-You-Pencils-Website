@@ -6,7 +6,13 @@ import './main.scss';
 import './fixed-nav.css';
 import App from './App';
 import Home from './pages/home';
+import Shop from './pages/shop';
+import Services from './pages/services';
+import Gallery from './pages/gallery';
+import EventsAndNews from './pages/events-and-news';
 import About from './pages/about';
+import Contact from './pages/contact';
+import Cart from './pages/cart';
 import ErrorPage from './pages/error-page';
 import reportWebVitals from './reportWebVitals';
 
@@ -31,7 +37,13 @@ const router = (
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="home" element={<Home />} />
+      <Route path="shop" element={<Shop />} />
+      <Route path="gallery" element={<Gallery />} />
+      <Route path="services" element={<Services />} />
+      <Route path="events-news" element={<EventsAndNews />} />
       <Route path="about" element={<About />} />
+      <Route path="contact" element={<Contact />} />
+      <Route path="cart" element={<Cart />} />
       <Route path="*" element={<ErrorPage />} />
     </Routes>
   </BrowserRouter>
