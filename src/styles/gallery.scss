@@ -1,0 +1,112 @@
+.gallery-page-wrapper {
+  display: grid;
+
+  .gallery-header {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    border-bottom: 3px solid black;
+    height: 70px;
+    align-items: center;
+    background: rgba(253, 235, 227, 0.6);
+  }
+
+  .gallery-art {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ 
+    .gallery-section-one {
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+
+    .gallery-one-art {
+      display: flex;
+      flex-direction: column;
+      background: rgba(222, 144, 125, 0.3);
+      width: 50%;
+      align-items: center;
+      border-right: 2px solid black;
+ 
+      .gallery-image-one {
+        height: 500px;
+        width: 500px;
+        padding: 30px 30px 30px 30px;
+      }
+
+      .gallery-button-wrapper {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+      }      
+    }
+
+    .gallery-two-art {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      align-items: center;
+
+      .gallery-image-two {
+        height: 500px;
+        width: 500px;
+        padding: 30px 30px 30px 30px;
+      }
+
+      .gallery-button-wrapper {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+      }
+    }
+  }
+
+  .gallery-section-two {
+    display: flex;
+    justify-content: space-evenly;
+
+    .gallery-three-art {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      align-items: center;
+      border-top: 2px solid black;
+
+      .gallery-image-three {
+        height: 500px;
+        width: 500px;
+        padding: 30px 30px 30px 30px;
+      }
+
+      .gallery-button-wrapper {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+      }
+    }
+
+    .gallery-four-art {
+      display: flex;
+      flex-direction: column;
+      background: rgba(222, 144, 125, 0.3);
+      width: 50%;
+      align-items: center;
+      border-top: 2px solid black;
+      border-left: 2px solid black;
+
+      .gallery-image-four {
+        height: 500px;
+        width: 500px;
+        padding: 30px 30px 30px 30px;
+      }
+
+      .gallery-button-wrapper {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+      }
+    }
+  }
+}
+}
