@@ -11,7 +11,7 @@ const NavBar = () => {
       <NavLink to="/events-news" className="btn">Events & News</NavLink>
       <NavLink to="/about" className="btn">About</NavLink>
       <NavLink to="/contact" className="btn">Contact</NavLink>
-      <NavLink to="/cart"className="btn-special-nav-bar">Cart</NavLink>
+      {/* <NavLink to="/cart"className="btn-special-nav-bar">Cart</NavLink> */}
     </div>
   );
 };

@@ -1,0 +1,12 @@
+.contact-page-wrapper {
+  display: grid;
+
+  .contact-info-wrapper {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    padding: 100px 0px 30px 0px;
+  }
+}

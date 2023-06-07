@@ -6,7 +6,7 @@ import ContactSection from './components/home/contact-section';
 const Services = () => {
  
     return (
-      <div className='about-page-wrapper'>
+      <div className='services-page-wrapper'>
       <div className='nav-bar-header-wrapper'>
         <div className='logo-wrapper'>
           <NavBarLogo />

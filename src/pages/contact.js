@@ -6,7 +6,7 @@ import ContactSection from './components/home/contact-section';
 const Contact = () => {
  
     return (
-      <div className='about-page-wrapper'>
+      <div className='contact-page-wrapper'>
       <div className='nav-bar-header-wrapper'>
         <div className='logo-wrapper'>
           <NavBarLogo />
@@ -15,8 +15,10 @@ const Contact = () => {
           <NavBar />
         </div>
       </div>
-      <div>
-        Contact Info!
+      <div className='contact-info-wrapper'>
+        Have questions or want to request custom artwork? Contact me in one of the ways below! <br/><br/><br/>
+        Email: info@lifegivesyoupencils.component<br/><br/>
+        Mailing: P.O. Box 536, Peyton, CO 80831
       </div>
       <div className='contact-section-wrapper'>
         <ContactSection />

@@ -6,7 +6,7 @@ import ContactSection from './components/home/contact-section';
 const Cart = () => {
  
     return (
-      <div className='about-page-wrapper'>
+      <div className='cart-page-wrapper'>
       <div className='nav-bar-header-wrapper'>
         <div className='logo-wrapper'>
           <NavBarLogo />
