@@ -4,7 +4,7 @@ import NavBar from './components/home/nav-bar';
 import NavBarLogo from './components/home/nav-bar-logo';
 import ContactSection from './components/home/contact-section';
 import galleryImgOne from '../static/assets/images/PinkButterflyArt.jpg'
-import galleryImgTwo from '../../src/static/assets/images/Cast_The_Chains_Artwork.png'
+import galleryImgTwo from '../../src/static/assets/images/Cast_The_Chains_Artwork.jpg'
 import galleryImgThree from '../../src/static/assets/images/Ocean_In_Wine_Glass_Artwork.jpg'
 import galleryImgFour from '../../src/static/assets/images/MarilynMonroeArt.jpg'
 
