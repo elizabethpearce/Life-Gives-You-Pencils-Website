@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import ScrollToTop from './pages/components/scroll-to-top';
 import './index.css';
 import './main.scss';
 import './fixed-nav.css';
@@ -23,6 +24,7 @@ import reportWebVitals from './reportWebVitals';
 
 const router = (
   <BrowserRouter>
+  <ScrollToTop />
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="home" element={<Home />} />
