@@ -1,5 +1,4 @@
 import React from 'react';
-// import { NavLink } from 'react-router-dom';
 import NavBar from './components/home/nav-bar';
 import NavBarLogo from './components/home/nav-bar-logo';
 import ContactSection from './components/home/contact-section';

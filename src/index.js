@@ -6,7 +6,8 @@ import './main.scss';
 import './fixed-nav.css';
 import App from './App';
 import Home from './pages/home';
-import Shop from './pages/shop';
+// import Shop from './pages/shop';
+import ShopTwo from './pages/shop-2';
 import Services from './pages/services';
 import Gallery from './pages/gallery';
 import ArtSeriesOne from './pages/art-series-one';
@@ -25,7 +26,7 @@ const router = (
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="home" element={<Home />} />
-      <Route path="shop" element={<Shop />} />
+      <Route path="shop" element={<ShopTwo />} />
       <Route path="gallery" element={<Gallery />} />
       <Route path="art-series-one" element={<ArtSeriesOne />} />
       <Route path="art-series-two" element={<ArtSeriesTwo />} />
