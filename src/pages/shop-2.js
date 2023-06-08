@@ -7,7 +7,7 @@ import shopImgOne from '../static/assets/images/cast-the-chains-watermark.jpg'
 import shopImgTwo from '../../src/static/assets/images/bold-lions-watermark.jpg'
 import shopImgThree from '../../src/static/assets/images/lily-pass-through-the-waters.jpg'
 import shopImgFour from '../../src/static/assets/images/MarilynMonroeArt.jpg'
-import shopImgFive from '../../src/static/assets/images/MarilynMonroeArt.jpg'
+import shopImgFive from '../../src/static/assets/images/Ocean_In_Wine_Glass_Artwork.jpg'
 import shopImgSix from '../../src/static/assets/images/love-never-fails-watermark.jpg'
 
 const ShopTwo = () => {
@@ -45,7 +45,7 @@ const ShopTwo = () => {
       </div> 
       
       <div className='for-sale-rotating-images'>
-        <RotatingFrame images={images} interval={3200} width='700px'/>
+        <RotatingFrame images={images} interval={2900} width='700px'/>
       </div>
 
       <div className='contact-section-wrapper'>
